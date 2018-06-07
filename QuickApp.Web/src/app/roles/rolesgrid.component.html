@@ -1,0 +1,58 @@
+﻿<div class="portlet-body">
+    <div class="table-toolbar">
+        <div class="row" *ngIf="isGranted('QuickApp.Pages.Roles.CanCreateRoles')">
+            <div class="col-md-6">
+                <div class="btn-group">
+                    <button id="createUser" class="btn green" (click)="createRole()">
+                        {{loc('CreateRole')}} <i class="fa fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portlet box green">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-cogs"></i>{{loc('Roles')}}
+            </div>
+            <div class="tools">
+                <a href="javascript:;" class="reload" (click)="loadUsers();">
+                </a>
+            </div>
+        </div>
+        <div class="portlet-body flip-scroll">
+            <table class="table table-bordered table-striped table-condensed flip-content">
+                <thead class="flip-content">
+                    <tr>
+                        <th>
+                            {{loc('RoleName')}}
+                        </th>
+                        <th>
+                            {{loc('Edit')}}
+                        </th>
+                        <th>
+                            {{loc('Delete')}}
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let role of roles">
+                        <td>
+                            {{role.Name}}
+                        </td>
+                        <td>
+                            <button class="btn btn-sm green filter-cancel" (click)="createRole(role.Id)"><i class="fa fa-edit"></i> Edit</button>
+                        </td>
+                        <td>
+                            <button class="btn btn-sm red filter-cancel" (click)="deleteRole(role.Id)"><i class="fa fa-times"></i> Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<modal #createRoleModal>
+    <create-role-form></create-role-form>
+</modal>
+<confirmation-dialog #deleteRoleConfirmationDialog (okEvent)="removeRoleConfirmation($event)">

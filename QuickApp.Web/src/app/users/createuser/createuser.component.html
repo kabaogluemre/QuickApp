@@ -1,0 +1,99 @@
+﻿<div class="portlet box blue-hoki">
+    <div class="portlet-title">
+        <div class="caption">
+            <i class="fa fa-gift"></i>
+            <span *ngIf="isEdit">
+                {{user.FirstName}} - {{user.LastName}}
+            </span>
+            <span *ngIf="!isEdit">
+                {{loc('CreateUser')}}
+            </span>
+        </div>
+    </div>
+    <div class="portlet-body form">
+        <form action="#" id="form-username" class="form-horizontal form-bordered" (ngSubmit) ="save()">
+            <div class="form-body">
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('Username')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="text" name="username" [(ngModel)]="user.Username" id="username" required maxlength="32" minlength="3" class="validate form-control input-circle"
+                                   placeholder="john.doe">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('Password')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="password" name="password" [(ngModel)]="user.Password" id="password" required maxlength="512" minlength="3" class="validate form-control input-circle"
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('Role')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <select multiple class="form-control" name="roleSelect" id="roleSelect" #roleSelect>
+                                <option *ngFor="let role of roles" [value]="role.Id" [selected]="isSelected(role.Id)">{{role.Name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('Firstname')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="text" name="firstName" [(ngModel)]="user.FirstName" id="firstName" required maxlength="32" minlength="2" class="validate form-control input-circle"
+                                   placeholder="John">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('LastName')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="text" name="lastName" [(ngModel)]="user.LastName" id="lastName" required maxlength="32" minlength="2" class="validate form-control input-circle"
+                                   placeholder="Doe">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('EmailAddress')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="text" name="emailAddress" [(ngModel)]="user.EmailAddress" id="emailAddress" required maxlength="360" minlength="2" class="validate form-control input-circle" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{1,})+$"
+                                   placeholder="john.doe@company.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('EmployeeNumber')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="text" name="employeeNumber" [(ngModel)]="user.EmployeeNumber" id="employeeNumber" required maxlength="32" minlength="2" class="validate form-control input-circle"
+                                   >
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">{{loc('Location')}}</label>
+                    <div class="col-md-5">
+                        <div class="input-icon right">
+                            <input type="text" name="location" [(ngModel)]="user.Location" id="location" required maxlength="32" minlength="2" class="validate form-control input-circle"
+                                   placeholder="Denmark">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-actions">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-9">
+                        <button type="submit" class="btn purple"><i class="fa fa-check"></i>Save Changes</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

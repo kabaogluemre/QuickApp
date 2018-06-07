@@ -1,0 +1,27 @@
+﻿<body class="login">
+    <div class="content">
+        <form class="login-form" method="post" novalidate (ngSubmit)="login()">
+            <h3 class="form-title">{{loc('Login')}}</h3>
+            <div class="alert alert-danger display-hide">
+                <button class="close" data-close="alert"></button>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">{{loc('Username')}}</label>
+                <input class="form-control form-control-solid placeholder-no-fix" type="text" [(ngModel)]="loginModel.Username"
+                       autocomplete="off" placeholder="Username" name="username" />
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">{{loc('Password')}}</label>
+                <input class="form-control form-control-solid placeholder-no-fix" type="password" [(ngModel)]="loginModel.Password"
+                       autocomplete="off" placeholder="Password" name="password" />
+            </div>
+            <div class="form-actions">
+                <button type="submit" [disabled]="submitDisabled" class="btn btn-success uppercase">{{loc('Login')}}</button>
+                <label class="rememberme check">
+                    <input type="checkbox" name="remember" [(ngModel)]="loginModel.Rememberme" class="filled-in chk-col-pink" value="true" />
+                    {{loc('RememberMe')}}
+                </label>
+            </div>
+        </form>
+    </div>
+</body>

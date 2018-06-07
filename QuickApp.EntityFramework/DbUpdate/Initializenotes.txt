@@ -1,0 +1,7 @@
+﻿If you want to add migration;
+
+Add-Migration -Name "" -ProjectName "QuickApp.EntityFramework" -ConnectionString "Server=localhost; Database=QuickApp; User=sa; Password=123qwe___;" -ConnectionProviderName "System.Data.SqlClient"
+
+If you want to apply migration;
+
+Update-Database -Verbose -ProjectName QuickApp.EntityFramework -ConnectionString "Server=localhost; Database=QuickApp; User=sa; Password=123qwe___;" -ConnectionProviderName "System.Data.SqlClient"

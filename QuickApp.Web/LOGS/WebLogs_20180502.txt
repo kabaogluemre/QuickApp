@@ -1,0 +1,2 @@
+INFO  2018-05-02 20:27:09,427 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-05-02 20:27:10,100 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList

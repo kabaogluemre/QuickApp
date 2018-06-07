@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2862C7F-DFA1-4D74-8565-6CCAA62E1A95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuickApp.Core</RootNamespace>
+    <AssemblyName>QuickApp.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.3.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.2.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\UnitOfWork.cs" />
+    <Compile Include="Authentication\NullAppSession.cs" />
+    <Compile Include="Authentication\WebAppSession.cs" />
+    <Compile Include="Authentication\ClaimType.cs" />
+    <Compile Include="Authentication\IAppSession.cs" />
+    <Compile Include="Authorization\IPermissionCheckerManager.cs" />
+    <Compile Include="Authorization\IPermissionContext.cs" />
+    <Compile Include="Authorization\IPermissionManager.cs" />
+    <Compile Include="Authorization\IRoleManager.cs" />
+    <Compile Include="Authorization\IUserManager.cs" />
+    <Compile Include="Authorization\Permission.cs" />
+    <Compile Include="Authorization\PermissionCheckerManager.cs" />
+    <Compile Include="Authorization\PermissionContext.cs" />
+    <Compile Include="Authorization\PermissionDto.cs" />
+    <Compile Include="Authorization\PermissionManager.cs" />
+    <Compile Include="Authorization\Providers\IPermissionProvider.cs" />
+    <Compile Include="Authorization\Providers\QuickAppPermissionNames.cs" />
+    <Compile Include="Authorization\Providers\QuickAppPermissionProvider.cs" />
+    <Compile Include="Authorization\RoleManager.cs" />
+    <Compile Include="Authorization\UserManager.cs" />
+    <Compile Include="Cryptography\SimpleAes.cs" />
+    <Compile Include="Data\Entities\BaseActions\IBeforeUpdate.cs" />
+    <Compile Include="Data\Entities\BaseActions\ICreationAuditEntity.cs" />
+    <Compile Include="Data\Entities\BaseActions\IEntityCreation.cs" />
+    <Compile Include="Data\Entities\BaseActions\IWriteHistoryLogs.cs" />
+    <Compile Include="Data\Entities\Client.cs" />
+    <Compile Include="Data\Entities\Role.cs" />
+    <Compile Include="Data\Entities\RolePermission.cs" />
+    <Compile Include="Data\Repositories\IBaseRepository.cs" />
+    <Compile Include="Data\Repositories\IClientRepository.cs" />
+    <Compile Include="Data\Repositories\IRepository.cs" />
+    <Compile Include="Data\Repositories\IRolePermissionRepository.cs" />
+    <Compile Include="Data\Repositories\IRoleRepository.cs" />
+    <Compile Include="Data\Repositories\IUserRepository.cs" />
+    <Compile Include="DIContainer\ILifeStylePerWebRequest.cs" />
+    <Compile Include="DIContainer\IocContainerBase.cs" />
+    <Compile Include="DIContainer\IocHelper.cs" />
+    <Compile Include="DIContainer\ISingletonDependency.cs" />
+    <Compile Include="DIContainer\ITransientDependency.cs" />
+    <Compile Include="DIContainer\QuickAppCoreInstaller.cs" />
+    <Compile Include="Dto\Mapper\DtoMapper.cs" />
+    <Compile Include="Dto\Role\RoleDto.cs" />
+    <Compile Include="Dto\User\UserDto.cs" />
+    <Compile Include="Data\Entities\BaseEntity.cs" />
+    <Compile Include="Data\Entities\User.cs" />
+    <Compile Include="Dto\User\UserSessionInfoDto.cs" />
+    <Compile Include="Exceptions\UnAuthorizationException.cs" />
+    <Compile Include="Exceptions\UserFriendlyException.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Localization\AppTexts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppTexts.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\LocalizationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IClientService.cs" />
+    <Compile Include="Services\Impl\ClientService.cs" />
+    <Compile Include="Services\Impl\RoleService.cs" />
+    <Compile Include="Services\IRoleService.cs" />
+    <Compile Include="Services\IUserService.cs" />
+    <Compile Include="Services\Impl\UserService.cs" />
+    <Compile Include="Utils\CryptographyHelper.cs" />
+    <Compile Include="Utils\UnitOfWorkHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\AppTexts.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\AppTexts.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppTexts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
+</Project>

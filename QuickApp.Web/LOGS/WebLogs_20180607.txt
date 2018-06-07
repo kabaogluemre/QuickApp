@@ -1,0 +1,88 @@
+INFO  2018-06-07 15:54:48,194 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-06-07 15:54:48,594 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+INFO  2018-06-07 15:58:21,402 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-06-07 15:58:22,572 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+ERROR 2018-06-07 15:58:33,510 [1    ] UnitOfWorkInterceptor                    - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "QuickApp" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at QuickApp.EntityFramework.EntityFramework.Repositories.BaseRepository`2.GetAllList() in C:\Development\UserManagement - Copy\QuickApp.EntityFramework\EntityFramework\Repositories\BaseRepository.cs:line 61
+   at Castle.Proxies.Invocations.IRepository`2_GetAllList_4.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\UserManagement - Copy\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 39
+INFO  2018-06-07 16:00:45,933 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-06-07 16:00:47,130 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-06-07 16:00:52,825 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:56,836 [10   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-06-07 16:00:56,842 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-06-07 16:00:57,920 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:57,947 [8    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-06-07 16:00:57,949 [8    ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-06-07 16:00:58,014 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:58,197 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:00:58,238 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:58,264 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:00:58,278 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:58,298 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:00:58,308 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:58,328 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:00:58,342 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:58,373 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:00:58,383 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:00:58,402 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:01,685 [8    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-06-07 16:01:01,687 [8    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-06-07 16:01:01,689 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:01:01,693 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-06-07 16:01:01,696 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-06-07 16:01:01,700 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:01:01,729 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:01,786 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:01,806 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-06-07 16:01:01,809 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-06-07 16:01:01,840 [8    ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-06-07 16:01:01,843 [8    ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-06-07 16:01:02,650 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-06-07 16:01:02,655 [11   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-06-07 16:01:02,662 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:01:02,694 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:02,710 [11   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-06-07 16:01:02,711 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-06-07 16:01:03,866 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-06-07 16:01:03,868 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-06-07 16:01:03,868 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:01:03,892 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:03,909 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRole
+DEBUG 2018-06-07 16:01:03,911 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-06-07 16:01:03,926 [5    ] UnitOfWorkInterceptor                    - RoleManager -> GetGrantedPermissions
+DEBUG 2018-06-07 16:01:03,931 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:03,943 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:03,955 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:03,966 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:03,977 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-06-07 16:01:03,989 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault

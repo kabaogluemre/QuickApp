@@ -1,0 +1,486 @@
+INFO  2018-04-16 22:28:09,111 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-04-16 22:28:09,864 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:28:20,124 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:26,428 [6    ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 22:28:26,435 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 22:28:27,875 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:27,891 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:28:27,891 [5    ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:28:27,975 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:28,177 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:28,208 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:28,223 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:28,223 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:28,223 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:28,239 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:28,239 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:28,239 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:28,255 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:28,255 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:28,270 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:31,983 [15   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:31,988 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:31,990 [15   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:31,996 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:32,007 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:32,003 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:32,020 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:32,037 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:32,077 [15   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 22:28:32,095 [15   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 22:28:32,496 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 22:28:32,504 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:28:33,157 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:33,166 [6    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:33,171 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:33,216 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:33,223 [6    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 22:28:33,227 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:28:34,232 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:34,237 [6    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:34,240 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:34,245 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:34,260 [6    ] UnitOfWorkInterceptor                    - RoleService -> GetRole
+DEBUG 2018-04-16 22:28:34,263 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:34,263 [6    ] UnitOfWorkInterceptor                    - RoleManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:28:34,279 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:34,295 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:34,302 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:34,308 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:34,322 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:34,332 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:37,976 [8    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:37,981 [8    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:37,985 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:37,991 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:37,996 [8    ] UnitOfWorkInterceptor                    - RoleService -> GetRole
+DEBUG 2018-04-16 22:28:38,000 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:38,003 [8    ] UnitOfWorkInterceptor                    - RoleManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:28:38,003 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:38,003 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:38,019 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:38,019 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:38,019 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:38,034 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:41,940 [7    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:41,946 [7    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:41,972 [7    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:41,940 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:41,985 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:41,991 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:41,983 [7    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:42,001 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:42,011 [7    ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 22:28:42,025 [7    ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 22:28:42,015 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 22:28:42,050 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:28:43,551 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:43,556 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:43,560 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:43,568 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:43,571 [5    ] UnitOfWorkInterceptor                    - UserService -> GetUser
+DEBUG 2018-04-16 22:28:43,583 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:46,208 [15   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:46,212 [15   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:46,216 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:46,227 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:46,234 [15   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:46,238 [15   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:46,243 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:46,250 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:46,267 [15   ] UnitOfWorkInterceptor                    - UserService -> CreateUser
+DEBUG 2018-04-16 22:28:46,273 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 22:28:46,288 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:46,296 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:46,301 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> Update
+DEBUG 2018-04-16 22:28:46,504 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:46,509 [6    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:46,515 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:46,524 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:46,531 [6    ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 22:28:46,536 [6    ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 22:28:47,135 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:47,139 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:47,143 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:47,149 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:47,154 [5    ] UnitOfWorkInterceptor                    - UserService -> GetUser
+DEBUG 2018-04-16 22:28:47,158 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:48,678 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:48,682 [6    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:48,685 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:48,690 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:48,696 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:48,700 [6    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:48,704 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:48,710 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:48,716 [6    ] UnitOfWorkInterceptor                    - UserService -> CreateUser
+DEBUG 2018-04-16 22:28:48,719 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 22:28:48,725 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:48,730 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> Update
+DEBUG 2018-04-16 22:28:48,766 [7    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:48,771 [7    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:48,776 [7    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:48,785 [7    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:48,790 [7    ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 22:28:48,796 [7    ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 22:28:56,555 [8    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:56,563 [8    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:56,573 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:56,590 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:56,596 [8    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 22:28:56,603 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:28:58,548 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:28:58,554 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 22:28:58,557 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:28:58,567 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:28:58,574 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 22:28:58,578 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+INFO  2018-04-16 22:47:46,782 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-04-16 22:47:47,177 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:47:55,247 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:55,677 [9    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:47:55,680 [9    ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:47:55,759 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:55,999 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:47:56,044 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:56,049 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:47:56,052 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:56,056 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:47:56,058 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:56,061 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:47:56,063 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:56,066 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:47:56,069 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:47:56,072 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:48:41,692 [12   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 22:48:41,697 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 22:48:51,780 [8    ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 22:48:51,812 [8    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 22:48:54,992 [11   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 22:48:54,993 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 22:48:58,419 [9    ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 22:48:58,420 [9    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+INFO  2018-04-16 22:52:53,758 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-04-16 22:52:55,815 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:53:02,728 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,171 [12   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:53:03,173 [12   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 22:53:03,264 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,589 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:53:03,643 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,647 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:53:03,650 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,655 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:53:03,657 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,660 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:53:03,663 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,666 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:53:03,670 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 22:53:03,674 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 22:53:13,487 [14   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 22:53:13,488 [7    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+ERROR 2018-04-16 22:53:18,493 [14   ] GlobalExceptionHandler                   - You don't have sufficient rights for this permission. PermissionName : QuickApp.Pages
+QuickApp.Core.Exceptions.UnAuthorizationException: You don't have sufficient rights for this permission. PermissionName : QuickApp.Pages
+   at QuickApp.Web.Core.Authentication.AppAuthorize.OnAuthorization(HttpActionContext actionContext) in C:\Development\QuickApp\QuickApp.Web.Core\Authentication\AppAuthorize.cs:line 32
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QuickApp.Web.Core.Localization.LocalizationMessageHandler.<SendAsync>d__0.MoveNext() in C:\Development\QuickApp\QuickApp.Web.Core\Localization\LocalizationMessageHandler.cs:line 13
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+ERROR 2018-04-16 22:53:18,493 [7    ] GlobalExceptionHandler                   - You don't have sufficient rights for this permission. PermissionName : QuickApp.Pages.Roles
+QuickApp.Core.Exceptions.UnAuthorizationException: You don't have sufficient rights for this permission. PermissionName : QuickApp.Pages.Roles
+   at QuickApp.Web.Core.Authentication.AppAuthorize.OnAuthorization(HttpActionContext actionContext) in C:\Development\QuickApp\QuickApp.Web.Core\Authentication\AppAuthorize.cs:line 32
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QuickApp.Web.Core.Localization.LocalizationMessageHandler.<SendAsync>d__0.MoveNext() in C:\Development\QuickApp\QuickApp.Web.Core\Localization\LocalizationMessageHandler.cs:line 13
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+DEBUG 2018-04-16 22:53:21,945 [7    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+ERROR 2018-04-16 22:53:23,715 [7    ] GlobalExceptionHandler                   - You don't have sufficient rights for this permission. PermissionName : QuickApp.Pages.Roles
+QuickApp.Core.Exceptions.UnAuthorizationException: You don't have sufficient rights for this permission. PermissionName : QuickApp.Pages.Roles
+   at QuickApp.Web.Core.Authentication.AppAuthorize.OnAuthorization(HttpActionContext actionContext) in C:\Development\QuickApp\QuickApp.Web.Core\Authentication\AppAuthorize.cs:line 32
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.OnAuthorizationAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QuickApp.Web.Core.Localization.LocalizationMessageHandler.<SendAsync>d__0.MoveNext() in C:\Development\QuickApp\QuickApp.Web.Core\Localization\LocalizationMessageHandler.cs:line 13
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+DEBUG 2018-04-16 22:53:27,485 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+INFO  2018-04-16 22:59:46,003 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-04-16 22:59:47,147 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 22:59:55,335 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:00,394 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:02,331 [6    ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 23:00:02,334 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 23:00:03,292 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,304 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:00:03,310 [5    ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:00:03,364 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,493 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:03,524 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,527 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:03,530 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,533 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:03,535 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,538 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:03,540 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,544 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:03,546 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:03,549 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:05,099 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:05,102 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:05,103 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:05,103 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:05,109 [6    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:05,109 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:05,107 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:05,120 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:05,130 [6    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:00:05,133 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:00:05,450 [5    ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 23:00:05,451 [5    ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 23:00:12,954 [12   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:12,955 [12   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:12,955 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:12,959 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:15,538 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:15,539 [10   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:15,541 [10   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:15,541 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:15,539 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:15,549 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:15,548 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:15,554 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:16,688 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:16,690 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:16,691 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:16,694 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:18,618 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:18,618 [10   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:18,620 [10   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:18,621 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:18,619 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:18,627 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:18,631 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:18,632 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:38,178 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:38,179 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:38,180 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:38,189 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:38,178 [10   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:38,192 [10   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:38,193 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:38,197 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:38,858 [12   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:38,861 [12   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:38,863 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:38,869 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:50,242 [10   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:50,243 [10   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:50,244 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:50,249 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:00:50,243 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:00:50,258 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:00:50,259 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:00:50,263 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:00,563 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:00,565 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:00,569 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:00,573 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:01,395 [12   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:01,397 [12   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:01,397 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:01,407 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:01,396 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:01,419 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:01,419 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:01,427 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:07,379 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,180 [16   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 23:01:09,181 [16   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 23:01:09,652 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,659 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:01:09,660 [5    ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:01:09,660 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,664 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:09,666 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,669 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:09,671 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,674 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:09,676 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,679 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:09,681 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,684 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:09,686 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:09,689 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:11,098 [10   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:11,099 [10   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:11,099 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:11,098 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:11,103 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:11,103 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:11,105 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:11,105 [10   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 23:01:11,109 [10   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 23:01:11,115 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:11,119 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:01:11,120 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:01:11,706 [12   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:11,709 [12   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:11,710 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:11,717 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:11,722 [12   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:01:11,723 [12   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:01:12,379 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:12,380 [11   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:12,381 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:12,379 [5    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:01:12,385 [5    ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:01:12,414 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:01:12,386 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:12,419 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:01:12,422 [11   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 23:01:12,422 [5    ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:01:12,423 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:01:12,422 [11   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+INFO  2018-04-16 23:15:49,565 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2018-04-16 23:15:50,164 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:15:59,102 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:04,708 [11   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2018-04-16 23:16:04,713 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2018-04-16 23:16:05,543 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,558 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:16:05,558 [11   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:16:05,677 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,907 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:05,954 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,954 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:05,954 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:05,970 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:07,865 [10   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:16:07,866 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:16:07,868 [10   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:16:07,869 [11   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:16:07,869 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:07,869 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:07,871 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:07,874 [10   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:07,875 [11   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:16:07,878 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:16:07,910 [10   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 23:16:07,914 [10   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 23:16:08,734 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:16:08,735 [11   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:16:08,735 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:16:08,738 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:16:08,740 [11   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:16:08,740 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:17:05,700 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,705 [6    ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:17:05,706 [6    ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:17:05,707 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,712 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:05,717 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,720 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:05,723 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,725 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:05,727 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,730 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:05,732 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,734 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:05,737 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:05,739 [6    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:06,522 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:17:06,528 [11   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:17:06,532 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:06,539 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:06,541 [11   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:17:06,542 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2018-04-16 23:17:36,760 [19   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:17:36,761 [19   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:17:36,762 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:36,767 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:36,783 [19   ] UnitOfWorkInterceptor                    - RoleService -> GetRole
+DEBUG 2018-04-16 23:17:36,785 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:36,790 [19   ] UnitOfWorkInterceptor                    - RoleManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:17:36,792 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:36,795 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:36,796 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:36,798 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:36,800 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:36,802 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,217 [14   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:17:38,218 [14   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:17:38,218 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:38,224 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,231 [14   ] UnitOfWorkInterceptor                    - RoleService -> GetRole
+DEBUG 2018-04-16 23:17:38,232 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:38,234 [14   ] UnitOfWorkInterceptor                    - RoleManager -> GetGrantedPermissions
+DEBUG 2018-04-16 23:17:38,235 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,236 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,237 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,238 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,240 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:38,242 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:43,441 [19   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:17:43,442 [19   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:17:43,443 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:43,444 [14   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2018-04-16 23:17:43,445 [14   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2018-04-16 23:17:43,445 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2018-04-16 23:17:43,445 [19   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:43,448 [19   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2018-04-16 23:17:43,448 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2018-04-16 23:17:43,449 [19   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2018-04-16 23:17:43,451 [14   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2018-04-16 23:17:43,451 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList

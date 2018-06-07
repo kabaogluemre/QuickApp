@@ -1,0 +1,93 @@
+﻿<div *ngIf ="errorMessage != ''" class="note note-warning note-bordered">
+    <p>
+        {{errorMessage}}
+    </p>
+</div>
+<div class="portlet-body">
+    <div class="table-toolbar">
+        <div class="row" *ngIf="isGranted('QuickApp.Pages.Users.CanCreateUsers')">
+            <div class="col-md-6">
+                <div class="btn-group">
+                    <button id="createUser" class="btn green" (click)="CreateUser()">
+                        {{loc('CreateUser')}} <i class="fa fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portlet box green">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-cogs"></i>{{loc('Users')}}
+            </div>
+            <div class="tools">
+                <a href="javascript:;" class="reload" (click)="LoadUsers();">
+                </a>
+            </div>
+        </div>
+        <div class="portlet-body flip-scroll">
+            <table class="table table-bordered table-striped table-condensed flip-content">
+                <thead class="flip-content">
+                    <tr>
+                        <th>
+                            {{loc('Username')}}
+                        </th>
+                        <th>
+                            {{loc('Firstname')}}
+                        </th>
+                        <th>
+                            {{loc('LastName')}}
+                        </th>
+                        <th>
+                            {{loc('EmployeeNumber')}}
+                        </th>
+                        <th>
+                            {{loc('EmailAddress')}}
+                        </th>
+                        <th>
+                            {{loc('Location')}}
+                        </th>
+                        <th>
+                            {{loc('Edit')}}
+                        </th>
+                        <th>
+                            {{loc('Delete')}}
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let user of users">
+                        <td class="numeric">
+                            {{user.Username}}
+                        </td>
+                        <td>
+                            {{user.FirstName}}
+                        </td>
+                        <td>
+                            {{user.LastName}}
+                        </td>
+                        <td>
+                            {{user.EmployeeNumber}}
+                        </td>
+                        <td>
+                            {{user.EmailAddress}}
+                        </td>
+                        <td>
+                            {{user.Location}}
+                        </td>
+                        <td>
+                            <button class="btn btn-sm green filter-cancel" (click)="CreateUser(user.Id)"><i class="fa fa-edit"></i> Edit</button>
+                        </td>
+                        <td>
+                            <button class="btn btn-sm red filter-cancel" (click)="DeleteUser(user.Id)"><i class="fa fa-times"></i> Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<modal #createUserModal>
+    <create-user-form (formAfterSave)="FormAfterSaveEvent($event)"></create-user-form>
+</modal>
+<confirmation-dialog #deleteUserConfirmationDialog (okEvent)="RemoveUserConfirmation($event)">

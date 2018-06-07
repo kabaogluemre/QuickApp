@@ -1,0 +1,1 @@
+{"version":3,"file":"sidebar-footer.component.js","sourceRoot":"","sources":["sidebar-footer.component.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAA6D;AAM7D;IAAA;IAAsC,CAAC;IAA1B,sBAAsB;QALlC,gBAAS,CAAC;YACP,QAAQ,EAAE,gBAAgB;YAC1B,WAAW,EAAE,+CAA+C;YAC5D,aAAa,EAAE,wBAAiB,CAAC,IAAI;SACxC,CAAC;OACW,sBAAsB,CAAI;IAAD,6BAAC;CAAA,AAAvC,IAAuC;AAA1B,wDAAsB"}

@@ -1,0 +1,27 @@
+﻿<div class="page-sidebar-wrapper">
+    <div class="page-sidebar navbar-collapse collapse">
+        <ul class="page-sidebar-menu page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+            <li routerLinkActive="active" *ngIf="isGranted('QuickApp.Pages.Home')">
+                <a [routerLink]="['home']">
+                    <i class="icon-home"></i>
+                    <span class="title">{{loc('Home')}}</span>
+                    <span *ngIf="routerLinkActive == active" class="selected"></span>
+                </a>
+            </li>
+            <li routerLinkActive="active" *ngIf="isGranted('QuickApp.Pages.Users')">
+                <a [routerLink]="['users']">
+                    <i class="icon-user"></i>
+                    <span class="title">{{loc('Users')}}</span>
+                    <span *ngIf="routerLinkActive == active" class="selected"></span>
+                </a>
+            </li>
+            <li routerLinkActive="active" *ngIf="isGranted('QuickApp.Pages.Roles')">
+                <a [routerLink]="['roles']">
+                    <i class="icon-user"></i>
+                    <span class="title">{{loc('Roles')}}</span>
+                    <span *ngIf="routerLinkActive == active" class="selected"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

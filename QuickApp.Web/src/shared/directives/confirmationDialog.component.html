@@ -1,0 +1,15 @@
+﻿<modal #confirmationDialogModal>
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">{{confirmationDialog.ModalTitle}}</h4>
+        </div>
+        <div class="modal-body">
+            {{confirmationDialog.ModalContent}}
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn default" data-dismiss="modal" (click) ="cancel()">Cancel</button>
+            <button type="button" class="btn blue" (click) ="ok()">Ok</button>
+        </div>
+    </div>
+</modal>

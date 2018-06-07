@@ -1,0 +1,7 @@
+﻿If you want to add migration;
+
+Add-Migration -Name "" -ProjectName "QuickApp.EntityFramework.PostgreSql" -ConnectionString "Host=localhost; Port=5432; Database=postgres; Username=postgres; Password=123qwe___;" -ConnectionProviderName "Npgsql"
+
+If you want to apply migration;
+
+Update-Database -ProjectName "QuickApp.EntityFramework.PostgreSql" -ConnectionString "Host=localhost; Port=5432; Database=postgres; Username=postgres; Password=123qwe___;" -ConnectionProviderName "Npgsql"
