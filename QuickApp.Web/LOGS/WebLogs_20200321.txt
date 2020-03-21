@@ -1,0 +1,330 @@
+INFO  2020-03-21 20:54:45,143 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2020-03-21 20:54:45,558 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 20:54:51,081 [5    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:02,056 [14   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2020-03-21 21:09:02,064 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2020-03-21 21:09:02,857 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:02,883 [27   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:09:02,887 [27   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:09:02,936 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:03,080 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:03,114 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:03,123 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:03,130 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:03,140 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:03,149 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:03,160 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:03,169 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:03,183 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:03,193 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:03,207 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:05,891 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:08,001 [35   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2020-03-21 21:09:08,006 [35   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2020-03-21 21:09:12,071 [38   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2020-03-21 21:09:12,075 [38   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2020-03-21 21:09:15,223 [40   ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2020-03-21 21:09:15,229 [40   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2020-03-21 21:09:15,641 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,652 [27   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:09:15,656 [27   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:09:15,659 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,670 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:15,678 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,689 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:15,697 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,707 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:15,718 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,730 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:15,740 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,754 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:15,765 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:15,778 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:17,136 [20   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:17,145 [14   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:17,145 [20   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:17,152 [14   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:17,160 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:17,157 [20   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:17,174 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:17,184 [20   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:17,187 [14   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2020-03-21 21:09:17,194 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:09:17,218 [20   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2020-03-21 21:09:17,223 [20   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2020-03-21 21:09:18,280 [31   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:18,286 [31   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:18,290 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:18,305 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:18,315 [31   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2020-03-21 21:09:18,320 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:09:19,228 [27   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:19,228 [29   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:19,233 [27   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:19,241 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:19,238 [29   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:19,254 [29   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:19,258 [27   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:19,269 [29   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:19,280 [27   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2020-03-21 21:09:19,285 [29   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2020-03-21 21:09:19,288 [27   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2020-03-21 21:09:19,292 [29   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:09:22,034 [25   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:22,038 [25   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:22,042 [25   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:22,057 [25   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:22,069 [25   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:22,074 [25   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:22,077 [25   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:22,090 [25   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:22,108 [25   ] UnitOfWorkInterceptor                    - UserService -> DeleteUser
+DEBUG 2020-03-21 21:09:22,114 [25   ] UnitOfWorkInterceptor                    - EfUserRepository -> DeleteUser
+DEBUG 2020-03-21 21:09:22,269 [20   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:22,273 [20   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:22,276 [20   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:22,292 [20   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:22,302 [20   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2020-03-21 21:09:22,306 [20   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2020-03-21 21:09:29,528 [31   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:29,533 [31   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:29,537 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:29,554 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:29,565 [31   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:29,569 [31   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:29,574 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:29,590 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:29,603 [31   ] UnitOfWorkInterceptor                    - UserService -> DeleteUser
+DEBUG 2020-03-21 21:09:29,608 [31   ] UnitOfWorkInterceptor                    - EfUserRepository -> DeleteUser
+DEBUG 2020-03-21 21:09:29,636 [20   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:29,641 [20   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:29,645 [20   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:29,665 [20   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:29,677 [20   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2020-03-21 21:09:29,682 [20   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2020-03-21 21:09:31,279 [31   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:31,285 [31   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:31,288 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:31,301 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:31,312 [31   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:31,317 [31   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:31,321 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:31,334 [31   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:31,344 [31   ] UnitOfWorkInterceptor                    - UserService -> DeleteUser
+DEBUG 2020-03-21 21:09:31,349 [31   ] UnitOfWorkInterceptor                    - EfUserRepository -> DeleteUser
+ERROR 2020-03-21 21:09:31,432 [31   ] UnitOfWorkInterceptor                    - This user can't be deleted. 
+QuickApp.Core.Exceptions.UserFriendlyException: This user can't be deleted. 
+   at QuickApp.EntityFramework.EntityFramework.Repositories.EfUserRepository.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\Repositories\EfUserRepository.cs:line 27
+   at Castle.Proxies.Invocations.IUserRepository_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 23
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IUserRepositoryProxy.DeleteUser(Int32 userId)
+   at QuickApp.Core.Services.UserService.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.Core\Services\Impl\UserService.cs:line 105
+   at Castle.Proxies.Invocations.IUserService_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 39
+ERROR 2020-03-21 21:09:37,449 [31   ] GlobalExceptionHandler                   - This user can't be deleted. 
+QuickApp.Core.Exceptions.UserFriendlyException: This user can't be deleted. 
+   at QuickApp.EntityFramework.EntityFramework.Repositories.EfUserRepository.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\Repositories\EfUserRepository.cs:line 27
+   at Castle.Proxies.Invocations.IUserRepository_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 23
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IUserRepositoryProxy.DeleteUser(Int32 userId)
+   at QuickApp.Core.Services.UserService.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.Core\Services\Impl\UserService.cs:line 105
+   at Castle.Proxies.Invocations.IUserService_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 60
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IUserServiceProxy.DeleteUser(Int32 userId)
+   at QuickApp.Web.Controllers.UserController.DeleteUser(DeleteUserInput input) in C:\Development\QuickApp\QuickApp.Web\Controllers\UserController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QuickApp.Web.Core.Localization.LocalizationMessageHandler.<SendAsync>d__0.MoveNext() in C:\Development\QuickApp\QuickApp.Web.Core\Localization\LocalizationMessageHandler.cs:line 13
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+DEBUG 2020-03-21 21:09:43,224 [42   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:43,230 [42   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:43,236 [42   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:43,258 [42   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:43,272 [42   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:09:43,278 [42   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:09:43,283 [42   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:09:43,295 [42   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:09:43,307 [42   ] UnitOfWorkInterceptor                    - UserService -> DeleteUser
+DEBUG 2020-03-21 21:09:43,312 [42   ] UnitOfWorkInterceptor                    - EfUserRepository -> DeleteUser
+ERROR 2020-03-21 21:09:43,351 [42   ] UnitOfWorkInterceptor                    - This user can't be deleted. 
+QuickApp.Core.Exceptions.UserFriendlyException: This user can't be deleted. 
+   at QuickApp.EntityFramework.EntityFramework.Repositories.EfUserRepository.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\Repositories\EfUserRepository.cs:line 27
+   at Castle.Proxies.Invocations.IUserRepository_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 23
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IUserRepositoryProxy.DeleteUser(Int32 userId)
+   at QuickApp.Core.Services.UserService.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.Core\Services\Impl\UserService.cs:line 105
+   at Castle.Proxies.Invocations.IUserService_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 39
+ERROR 2020-03-21 21:09:45,512 [42   ] GlobalExceptionHandler                   - This user can't be deleted. 
+QuickApp.Core.Exceptions.UserFriendlyException: This user can't be deleted. 
+   at QuickApp.EntityFramework.EntityFramework.Repositories.EfUserRepository.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\Repositories\EfUserRepository.cs:line 27
+   at Castle.Proxies.Invocations.IUserRepository_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 23
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IUserRepositoryProxy.DeleteUser(Int32 userId)
+   at QuickApp.Core.Services.UserService.DeleteUser(Int32 userId) in C:\Development\QuickApp\QuickApp.Core\Services\Impl\UserService.cs:line 105
+   at Castle.Proxies.Invocations.IUserService_DeleteUser.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at QuickApp.EntityFramework.EntityFramework.UnitOfWork.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in C:\Development\QuickApp\QuickApp.EntityFramework\EntityFramework\UnitOfWork\UnitOfWorkInterceptor.cs:line 60
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IUserServiceProxy.DeleteUser(Int32 userId)
+   at QuickApp.Web.Controllers.UserController.DeleteUser(DeleteUserInput input) in C:\Development\QuickApp\QuickApp.Web\Controllers\UserController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QuickApp.Web.Core.Localization.LocalizationMessageHandler.<SendAsync>d__0.MoveNext() in C:\Development\QuickApp\QuickApp.Web.Core\Localization\LocalizationMessageHandler.cs:line 13
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.HttpServer.<SendAsync>d__0.MoveNext()
+INFO  2020-03-21 21:10:17,940 [1    ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2020-03-21 21:10:18,286 [1    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:10:23,200 [18   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,025 [7    ] UnitOfWorkInterceptor                    - UserService -> GetUserByUsernameAndPassword
+DEBUG 2020-03-21 21:10:38,034 [7    ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAll
+DEBUG 2020-03-21 21:10:38,640 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,651 [11   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:10:38,656 [11   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:10:38,728 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,889 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:38,921 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,927 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:38,932 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,938 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:38,943 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,948 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:38,953 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,958 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:38,963 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:38,968 [11   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:40,300 [17   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:10:40,300 [13   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:10:40,307 [17   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:10:40,312 [13   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:10:40,321 [17   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:40,327 [13   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:40,336 [17   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:40,344 [13   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:40,348 [17   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2020-03-21 21:10:40,360 [17   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:10:40,384 [13   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2020-03-21 21:10:40,391 [13   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2020-03-21 21:10:41,204 [14   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:10:41,210 [14   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:10:41,216 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:41,222 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:41,227 [14   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2020-03-21 21:10:41,232 [14   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:10:42,099 [15   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:10:42,099 [17   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> IsGranted
+DEBUG 2020-03-21 21:10:42,104 [15   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:10:42,112 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:42,109 [17   ] UnitOfWorkInterceptor                    - UserManager -> IsGranted
+DEBUG 2020-03-21 21:10:42,122 [17   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:10:42,120 [15   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:42,129 [17   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:10:42,135 [15   ] UnitOfWorkInterceptor                    - UserService -> GetUsers
+DEBUG 2020-03-21 21:10:42,143 [15   ] UnitOfWorkInterceptor                    - EfUserRepository -> GetUsers
+DEBUG 2020-03-21 21:10:42,139 [17   ] UnitOfWorkInterceptor                    - RoleService -> GetRoles
+DEBUG 2020-03-21 21:10:42,155 [17   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+INFO  2020-03-21 21:17:09,847 [71   ] InitializeIocContainer                   - IocContainer created ! 
+DEBUG 2020-03-21 21:17:10,157 [71   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetAllList
+DEBUG 2020-03-21 21:17:14,480 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:14,780 [73   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:17:14,786 [73   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:17:14,856 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:15,040 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:15,082 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:15,087 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:15,092 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:15,097 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:15,101 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:15,106 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:15,110 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:15,115 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:15,119 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:15,123 [73   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:19,120 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,127 [78   ] UnitOfWorkInterceptor                    - PermissionCheckerManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:17:19,132 [78   ] UnitOfWorkInterceptor                    - UserManager -> GetGrantedPermissions
+DEBUG 2020-03-21 21:17:19,138 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,145 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:19,151 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,158 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:19,163 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,170 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:19,176 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,181 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:19,187 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,193 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault
+DEBUG 2020-03-21 21:17:19,198 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> GetIsActive
+DEBUG 2020-03-21 21:17:19,205 [78   ] UnitOfWorkInterceptor                    - BaseRepository`2 -> FirstOrDefault

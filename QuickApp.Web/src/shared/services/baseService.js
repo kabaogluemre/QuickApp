@@ -73,7 +73,7 @@ var BaseService = /** @class */ (function () {
         }
         notificationService_1.NotificationService.show(new notificationConfig_1.NotificationConfig("", errorModel.ErrorMessage, notificationType_1.NotificationType.Error));
         Metronic.unblockUI();
-        if (error.status === 401) {
+        if (error.status === 401) { //Unauthorized
         }
         return Observable_1.Observable.throw(error.json());
     };

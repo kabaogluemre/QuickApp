@@ -32,6 +32,7 @@ var SharedModule = /** @class */ (function () {
             ]
         };
     };
+    var SharedModule_1;
     SharedModule = SharedModule_1 = __decorate([
         core_1.NgModule({
             imports: [
@@ -48,7 +49,6 @@ var SharedModule = /** @class */ (function () {
         })
     ], SharedModule);
     return SharedModule;
-    var SharedModule_1;
 }());
 exports.SharedModule = SharedModule;
 //# sourceMappingURL=shared.module.js.map

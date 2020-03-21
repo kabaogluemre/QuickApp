@@ -19,7 +19,7 @@ namespace QuickApp.Core.Localization {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class AppTexts {
@@ -223,6 +223,60 @@ namespace QuickApp.Core.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sayfa yönetimi.
+        /// </summary>
+        public static string QuickApp_Pages {
+            get {
+                return ResourceManager.GetString("QuickApp.Pages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Anasayfa.
+        /// </summary>
+        public static string QuickApp_Pages_Home {
+            get {
+                return ResourceManager.GetString("QuickApp.Pages.Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rol yönetimi.
+        /// </summary>
+        public static string QuickApp_Pages_Roles {
+            get {
+                return ResourceManager.GetString("QuickApp.Pages.Roles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rol oluşturabilir.
+        /// </summary>
+        public static string QuickApp_Pages_Roles_CanCreateRoles {
+            get {
+                return ResourceManager.GetString("QuickApp.Pages.Roles.CanCreateRoles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kullanıcı yönetimi.
+        /// </summary>
+        public static string QuickApp_Pages_Users {
+            get {
+                return ResourceManager.GetString("QuickApp.Pages.Users", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kullanıcı oluşturabilir.
+        /// </summary>
+        public static string QuickApp_Pages_Users_CanCreateUsers {
+            get {
+                return ResourceManager.GetString("QuickApp.Pages.Users.CanCreateUsers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Beni hatırla.
         /// </summary>
         public static string RememberMe {
@@ -327,60 +381,6 @@ namespace QuickApp.Core.Localization {
         public static string UserDeletedSuccessfuly {
             get {
                 return ResourceManager.GetString("UserDeletedSuccessfuly", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sayfa yönetimi.
-        /// </summary>
-        public static string QuickApp_Pages {
-            get {
-                return ResourceManager.GetString("QuickApp.Pages", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Anasayfa.
-        /// </summary>
-        public static string QuickApp_Pages_Home {
-            get {
-                return ResourceManager.GetString("QuickApp.Pages.Home", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Rol yönetimi.
-        /// </summary>
-        public static string QuickApp_Pages_Roles {
-            get {
-                return ResourceManager.GetString("QuickApp.Pages.Roles", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Rol oluşturabilir.
-        /// </summary>
-        public static string QuickApp_Pages_Roles_CanCreateRoles {
-            get {
-                return ResourceManager.GetString("QuickApp.Pages.Roles.CanCreateRoles", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Kullanıcı yönetimi.
-        /// </summary>
-        public static string QuickApp_Pages_Users {
-            get {
-                return ResourceManager.GetString("QuickApp.Pages.Users", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Kullanıcı oluşturabilir.
-        /// </summary>
-        public static string QuickApp_Pages_Users_CanCreateUsers {
-            get {
-                return ResourceManager.GetString("QuickApp.Pages.Users.CanCreateUsers", resourceCulture);
             }
         }
         
